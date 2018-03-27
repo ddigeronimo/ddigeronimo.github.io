@@ -1,3 +1,4 @@
+// This site is the work of Dylan DiGeronimo
 $(document).ready(function () {
     $('div.hidden1').fadeIn(1000).removeClass('hidden1');
     $('div.hidden2').fadeIn(2000).removeClass('hidden2');
