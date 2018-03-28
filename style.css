@@ -46,6 +46,16 @@ aside {
     color: #dc322f;
 }
 
+.tiny {
+    font-size: 5px;
+    position: static;
+    text-align: center;
+}
+
+.tiny a {
+    color: #eee8d5;
+}
+
 @media all and (max-width: 719px){
     .css-typing {
         font-family: 'IBM Plex Mono', monospace;
