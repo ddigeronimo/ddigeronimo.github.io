@@ -50,7 +50,7 @@ aside {
     font-weight: bold;
     font-size: 2em;
     line-height: 1.3; 
-    width: 30em;
+    width: 15em;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: type 3s steps(50, end);
