@@ -45,23 +45,36 @@ aside {
     color: #dc322f;
 }
 
-.css-typing {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: bold;
-    font-size: 2em;
-    line-height: 1.3; 
-    width: 15em;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: type 3s steps(50, end);
-    animation: type 3s steps(50, end);
-    color: #268bd2;
+@media all and (max-width: 719px){
+    .css-typing {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 1.3; 
+        color: #268bd2;
+    }
 }
 
-@keyframes type{
-    from { width: 0; }
-}
 
-@-webkit-keyframes type{
-    from { width: 0; }
+@media all and (min-width: 720px){
+    .css-typing {
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 1.3; 
+        width: 30em;
+        white-space: nowrap;
+        overflow: hidden;
+        -webkit-animation: type 3s steps(50, end);
+        animation: type 3s steps(50, end);
+        color: #268bd2;
+    }
+
+    @keyframes type{
+        from { width: 0; }
+    }
+
+    @-webkit-keyframes type{
+        from { width: 0; }
+    }
 }
