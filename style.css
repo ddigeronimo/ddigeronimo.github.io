@@ -1,20 +1,20 @@
-/* This site is the work of Dylan DIGeronimo */
+/* This site is the work of Dylan DiGeronimo */
 
-body { 
-    margin: 5% auto; 
-    background: #eee8d5; 
+body {
+    margin: 5% auto;
+    background: #eee8d5;
     color: #586e75;
     /* font-family: 'Helvetica', sans-serif; */
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px; 
+    font-size: 16px;
     /* font-weight: bold; */
-    line-height: 1.6; 
+    line-height: 1.6;
     max-width: 73%;
 }
 
 h1, h2, h3 {
     font-weight: bold;
-    line-height: 1.3; 
+    line-height: 1.3;
     color: #2aa198;
 }
 
@@ -27,20 +27,20 @@ div {
     padding: 10px;
     border-radius: 25px
 }
-  
+
 div.hidden1, .hidden2, .hidden3, .hidden4, .hidden5 {
     display: none
 }
-  
+
 a {
-    color: #b58900; 
+    color: #b58900;
     text-decoration: none;
 }
-  
+
 a:hover {
     color: #cb4b16;
 }
-  
+
 
 aside {
     color: #dc322f;
@@ -61,7 +61,7 @@ aside {
         font-family: 'IBM Plex Mono', monospace;
         font-weight: bold;
         font-size: 2em;
-        line-height: 1.3; 
+        line-height: 1.3;
         color: #268bd2;
     }
 }
@@ -72,7 +72,7 @@ aside {
         font-family: 'IBM Plex Mono', monospace;
         font-weight: bold;
         font-size: 2em;
-        line-height: 1.3; 
+        line-height: 1.3;
         width: 30em;
         white-space: nowrap;
         overflow: hidden;
