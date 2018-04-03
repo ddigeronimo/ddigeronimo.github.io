@@ -2,7 +2,7 @@
 [The new version of my personal website.](https://ddigeronimo.github.io) 
 
 Currently it's just a nice looking, simple, handwritten HTML + CSS website with a few embelishments. 
-Test
+
 
 ---
 
