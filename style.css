@@ -55,6 +55,10 @@ aside {
     color: #292B2E;
 }
 
+footer {
+    font-size: 15px;
+}
+
 @media all and (max-width: 719px){
     .css-typing {
         font-family: 'IBM Plex Mono', monospace;
