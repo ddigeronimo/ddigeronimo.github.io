@@ -10,20 +10,22 @@ $hover: #A2D39B;
 $aside: #2AA1AE;
 
 // Font variables
-$mono: 'IBM Plex Mono', monospace;
+$mono: 'Roboto Mono', monospace;
+$sans: 'Open Sans', sans-serif;
 
 body {
-    margin: 5% auto;
+    margin: 3% auto;
     background: $bg;
     color: $text;
-    font-family: $mono;
+    font-family: $sans;
     font-size: 16px;
     line-height: 1.6;
-    max-width: 73%;
+    max-width: 50%; // Reduce this?
 }
 
 h1, h2, h3 {
-    font-weight: bold;
+    // font-weight: bold;
+    font-family: $sans;
     line-height: 1.3;
     color: $subheader;
 }
@@ -54,6 +56,8 @@ a:hover {
 
 aside {
     color: $aside;
+    font-family: $mono;
+    font-style: italic;
 }
 
 .tiny {
@@ -90,8 +94,8 @@ footer {
         width: 30em;
         white-space: nowrap;
         overflow: hidden;
-        -webkit-animation: type 3s steps(50, end);
-        animation: type 3s steps(50, end);
+        -webkit-animation: type 4s steps(50, end);
+        animation: type 4s steps(50, end);
         color: $header;
     }
 
