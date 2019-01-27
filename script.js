@@ -4,5 +4,4 @@ $(document).ready(function () {
     $('div.hidden2').fadeIn(1000).removeClass('hidden2');
     $('div.hidden3').fadeIn(1500).removeClass('hidden3');
     $('div.hidden4').fadeIn(2000).removeClass('hidden4');
-    $('div.hidden5').fadeIn(2500).removeClass('hidden5');
 });
