@@ -1,13 +1,20 @@
 /* This site is the work of Dylan DiGeronimo */
 
 // Color variables
-$bg: #292B2E;
-$text: #B2B2B2;
-$header: #BC6EC5;
-$subheader: #5E71A7;
-$link: #2D9574;
-$hover: #A2D39B;
-$aside: #2AA1AE;
+$bg:        #1F2430;
+$text:      #B2B2B2;
+$header:    #DA70D6;
+$subheader: #73D0E5;
+$link:      #2D9574;
+$hover:     #A997DF;
+$aside:     #FFB74E;
+
+// Experimental color variables
+$seaSerpent:    #59C3c3;
+$isabelline:    #EBEBEB;
+$fieryRose:     #F45B69;
+$cyberGrape:    #63458A;
+$darkOrchid:    #9A48D0;
 
 // Font variables
 $mono: 'Roboto Mono', monospace;
@@ -16,7 +23,9 @@ $sans: 'Open Sans', sans-serif;
 body {
     margin: 3% auto;
     background: $bg;
+    // background: $isabelline;
     color: $text;
+    // color: $cyberGrape;
     font-family: $sans;
     font-size: 16px;
     line-height: 1.6;
@@ -28,11 +37,13 @@ h1, h2, h3 {
     font-family: $mono;
     line-height: 1.3;
     color: $subheader;
+    // color: $fieryRose;
 }
 
 h1 {
     font-family: $mono;
     color: $header;
+    // color: $darkOrchid;
 }
 
 div {
@@ -46,11 +57,13 @@ div.hidden1, .hidden2, .hidden3, .hidden4, .hidden5 {
 
 a {
     color: $link;
+    // color: $seaSerpent;
     text-decoration: none;
 }
 
 a:hover {
     color: $hover;
+    // color: $fieryRose;
 }
 
 
@@ -68,10 +81,6 @@ aside {
 
 .tiny a {
     color: $bg;
-}
-
-footer {
-    font-size: 15px;
 }
 
 @media all and (max-width: 719px){
