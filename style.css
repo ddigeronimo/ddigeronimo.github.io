@@ -6,69 +6,87 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  max-width: 75%; }
+  max-width: 75%;
+}
 
 h1, h2, h3 {
   font-family: "Roboto Mono", monospace;
   line-height: 1.3;
-  color: #73D0E5; }
+  color: #73D0E5;
+}
 
 h1 {
   font-family: "Roboto Mono", monospace;
-  color: #DA70D6; }
+  color: #DA70D6;
+}
 
 div {
   padding: 10px;
-  border-radius: 25px; }
+  border-radius: 25px;
+}
 
 div.hidden1, .hidden2, .hidden3, .hidden4, .hidden5 {
-  display: none; }
+  display: none;
+}
 
 a {
   color: #2D9574;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a:hover {
-  color: #A997DF; }
+  color: #A997DF;
+}
 
 aside {
   color: #FFB74E;
   font-family: "Roboto Mono", monospace;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .tiny {
   font-size: 5px;
   position: static;
-  text-align: center; }
+  text-align: center;
+}
 
 .tiny a {
-  color: #1F2430; }
+  color: #1F2430;
+}
 
 @media all and (max-width: 719px) {
   .css-typing {
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 20px;
     line-height: 1.3;
-    color: #DA70D6; } }
+    color: #DA70D6;
+  }
+}
 @media all and (min-width: 720px) {
   .css-typing {
     font-family: "Roboto Mono", monospace;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 32px;
     line-height: 1.3;
     width: 30em;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: type 4s steps(50, end);
     animation: type 4s steps(50, end);
-    color: #DA70D6; }
+    color: #DA70D6;
+  }
 
   @keyframes type {
     from {
-      width: 0; } }
+      width: 0;
+    }
+  }
   @-webkit-keyframes type {
     from {
-      width: 0; } } }
+      width: 0;
+    }
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
