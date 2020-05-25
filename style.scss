@@ -30,6 +30,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     max-width: 75%; // Reduce this?
+    // text-align: center;
 }
 
 h1, h2, h3 {
@@ -49,10 +50,6 @@ h1 {
 div {
     padding: 10px;
     border-radius: 25px
-}
-
-div.hidden1, .hidden2, .hidden3, .hidden4, .hidden5 {
-    display: none
 }
 
 a {
@@ -96,6 +93,7 @@ aside {
 
 @media all and (min-width: 720px){
     .css-typing {
+        // margin: auto;
         font-family: $mono;
         font-weight: bold;
         font-size: 32px;

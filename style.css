@@ -25,10 +25,6 @@ div {
   border-radius: 25px;
 }
 
-div.hidden1, .hidden2, .hidden3, .hidden4, .hidden5 {
-  display: none;
-}
-
 a {
   color: #2D9574;
   text-decoration: none;
