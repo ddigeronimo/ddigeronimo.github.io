@@ -50,6 +50,10 @@ aside {
   color: #1F2430;
 }
 
+.link-list li {
+  margin: 0 0 3px 0;
+}
+
 @media all and (max-width: 719px) {
   .css-typing {
     font-family: "Roboto Mono", monospace;

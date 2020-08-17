@@ -80,6 +80,12 @@ aside {
     color: $bg;
 }
 
+.link-list {
+    li {
+	margin: 0 0 3px 0;
+    }
+}
+
 @media all and (max-width: 719px){
     .css-typing {
         font-family: $mono;
