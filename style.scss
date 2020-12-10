@@ -1,68 +1,47 @@
 /* This site is the work of Dylan DiGeronimo */
 
 // Color variables
-$bg:        #1F2430;
-$text:      #B2B2B2;
-$header:    #DA70D6;
-$subheader: #73D0E5;
-$link:      #2D9574;
-$hover:     #A997DF;
+$bg:        #ebeadf;
+$text:      #4b2321;
+$header:    #009b00;
+$subheader: #009ad5;
+$link:      #c77b11;
+$hover:     #d71e00;
 $aside:     #FFB74E;
 
-// Experimental color variables
-$seaSerpent:    #59C3c3;
-$isabelline:    #EBEBEB;
-$fieryRose:     #F45B69;
-$cyberGrape:    #63458A;
-$darkOrchid:    #9A48D0;
-
 // Font variables
-$mono: 'Roboto Mono', monospace;
-$sans: 'Open Sans', sans-serif;
+$mono: 'JetBrains Mono', monospace;
+$sans: 'Lato', sans-serif;
 
 body {
     margin: 3% auto;
     background: $bg;
-    // background: $isabelline;
     color: $text;
-    // color: $cyberGrape;
     font-family: $sans;
-    font-size: 16px;
-    line-height: 1.6;
-    max-width: 75%; // Reduce this?
-    // text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 75%;
 }
 
-h1, h2, h3 {
-    // font-weight: bold;
+h1, h2 {
     font-family: $mono;
     line-height: 1.3;
     color: $subheader;
-    // color: $fieryRose;
-}
-
-h1 {
-    font-family: $mono;
-    color: $header;
-    // color: $darkOrchid;
 }
 
 div {
-    padding: 10px;
+    padding: 3px;
     border-radius: 25px
 }
 
 a {
     color: $link;
-    // color: $seaSerpent;
     text-decoration: none;
 }
 
 a:hover {
     color: $hover;
-    // color: $fieryRose;
 }
-
 
 aside {
     color: $aside;
@@ -70,46 +49,27 @@ aside {
     font-style: italic;
 }
 
-.tiny {
-    font-size: 5px;
-    position: static;
-    text-align: center;
-}
-
-.tiny a {
-    color: $bg;
-}
-
-.link-list {
-    li {
-	margin: 0 0 3px 0;
-    }
+.css-typing {
+    color: $header;
+    font-family: $mono;
+    font-weight: bold;
 }
 
 @media all and (max-width: 719px){
     .css-typing {
-        font-family: $mono;
-        font-weight: bold;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 1.3;
-        color: $header;
     }
 }
 
-
 @media all and (min-width: 720px){
     .css-typing {
-        // margin: auto;
-        font-family: $mono;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 1.3;
+        font-size: 40px;
         width: 30em;
         white-space: nowrap;
         overflow: hidden;
         -webkit-animation: type 4s steps(50, end);
         animation: type 4s steps(50, end);
-        color: $header;
     }
 
     @keyframes type{
