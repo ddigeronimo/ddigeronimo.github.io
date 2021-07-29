@@ -40,8 +40,14 @@ a:hover {
   text-align: center;
 }
 
+@media all and (max-width: 719px) {
+  .css-typing {
+    display: none;
+  }
+}
 @media all and (min-width: 720px) {
   .css-typing {
+    display: block;
     width: 30em;
     white-space: nowrap;
     overflow: hidden;

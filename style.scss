@@ -53,20 +53,27 @@ a {
     text-align: center;
 }
 
-@media all and (min-width: 720px){
+@media all and (max-width:719px) {
     .css-typing {
+        display: none;
+    }
+}
+
+@media all and (min-width: 720px) {
+    .css-typing {
+        display: block;
         width: 30em;
         white-space: nowrap;
         overflow: hidden;
         -webkit-animation: type 4s steps(50, end);
         animation: type 4s steps(50, end);
     }
-
-    @keyframes type{
+    
+    @keyframes type {
         from { width: 0; }
     }
 
-    @-webkit-keyframes type{
+    @-webkit-keyframes type {
         from { width: 0; }
     }
 }
