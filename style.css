@@ -1,19 +1,14 @@
 /* This site is the work of Dylan DiGeronimo */
 body {
   margin: 3% auto;
-  background: #2d3047;
-  color: #ffffff;
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  line-height: 1.75;
+  font-size: 36px;
   max-width: 75%;
+  text-align: center;
 }
 
-h1, h2 {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 40px;
+h1 {
+  font-size: 68px;
   line-height: 1.3;
-  color: #009ad5;
 }
 
 div {
@@ -22,49 +17,23 @@ div {
 }
 
 a {
-  color: #ffdbb5;
   text-decoration: none;
 }
-a:hover {
-  color: #e5a4cb;
-}
 
-.css-typing {
-  color: #419D78;
-  font-family: "JetBrains Mono", monospace;
+pre {
+  font-size: .7vw;
   font-weight: bold;
-  font-size: 44px;
 }
 
 .link-container {
   text-align: center;
 }
 
-@media all and (max-width: 719px) {
-  .css-typing {
-    display: none;
-  }
+@media only screen and (max-width: 768px) {
+   body {
+    font-size: 6vw;
+   } 
+   h1 {
+    font-size: 10vw;
+   }
 }
-@media all and (min-width: 720px) {
-  .css-typing {
-    display: block;
-    width: 30em;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: type 4s steps(50, end);
-    animation: type 4s steps(50, end);
-  }
-
-  @keyframes type {
-    from {
-      width: 0;
-    }
-  }
-  @-webkit-keyframes type {
-    from {
-      width: 0;
-    }
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
